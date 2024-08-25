@@ -1,0 +1,87 @@
+
+
+Install GIT on our local (machine)
+Create a GitHub/GitLab account
+Set up SSH keys using ssh-keygen
+
+
+
+PUSHING A LOCAL PROJECT TO HOSTING APPS LIKE GitHub (master/main)
+1. You have a local project project
+2. You create a remote repo
+3. Initialize your local with GIT to trach changes: git init 
+4. Link your local with remote repo: git add remote origin <URL>
+5. Track changes on your local and push 
+    git add .
+    git commit -m 'message'
+    git push -u origin master or git push 
+
+
+
+CLONING A REMOTE REPO AND MAKING FIRST PUSH (master)
+1. Clone the project to your local: git clone <url>
+2. Have some changes and track changes on your local and push
+    git add .
+    git commit -m 'message'
+    git push -u origin master or git push 
+
+
+
+CLONING A REMOTE REPO AND MAKING FIRST PUSH (not master/main) - THIS IS WHAT YOU WILL DO IN THE COMPANY
+1. Clone the project to your local: git clone <url>
+2. You are not allowed to do changes and push them with master/main branches
+3. Create your own local branch and switch to it
+    git branch <branch-name>
+    git chechout <branch-name>
+
+    or 
+
+    git checkout -b <branch-name>
+
+
+
+4. Have some changes and track changes on your local and push
+    git add .
+    git commit -m 'message'
+    git push -u origin master or git push
+
+
+    GIT BRANCHING
+git branch <branch-name>
+git chechout <branch-name>
+git checkout -u <branch-name> or git push 
+
+5. Pull Request / Merge Request: PR or MR 
+6. Close/Complete PR/MR 
+
+
+    GIT BRANCHING
+git branch <branch-name>
+git chechout <branch-name>
+git checkout -b <branch-name>  
+
+
+git branch 
+git branch -d <branch-name>
+
+GIT CONFLICT
+-Merge conflict happnes if mutiltiple users work on the same file and one of the collaborators didn't pull the latest changes
+and trying to push and merge more changes to the same file.
+
+If it is a easy resolution we can just fix it inline using Github/GitLab/Bitbucket or Azure DevOps.
+Then, merge the changes
+
+HOWEVER, if it is more challenging, then it is better to pull the changes to your loval and fix the push them.
+1. Go back to your local repo
+2. Switch to master/main
+3. pull the changes to master --> git pull
+4. Switch back to your branch with caused conflicts
+5. Merge all the local master changes into your local brach which is causing conflicts --> git merge master
+6. These steps will show all the conflicts in you local as well
+7. Then, resolve all the conflicts
+8. Push the new changes with the branch causin conflicts
+9. come to your PR and you will see all the conflicts are resolved
+10. Close/Complete your PR/MR
+
+GIT STASH - stores your changes in a temperary zone.
+GIT STASH APPLY - it applies changes back 

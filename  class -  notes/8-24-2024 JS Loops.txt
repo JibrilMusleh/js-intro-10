@@ -1,0 +1,39 @@
+
+
+Loops: they are used to run a block of code many times.
+
+1. FOR LOOP:
+initialization
+condition
+update - change
+
+
+
+INFINITE LOOP: a loop that never terminates
+for(let i = 10; i > 1; i++) {
+    console.log(i)
+}
+
+
+for( ; ; ) {
+    console.log('Hello')
+}
+
+
+2. WHILE LOOP
+
+while(condition) {
+    // block of code to execute
+}
+
+let written = 1;
+let guess = undefined;
+
+while(guess != written) {
+    guess = getRandomNumber(1, 10)
+}
+
+console.log('Numbers finally matched!');
+
+
+3. DO WHILE LOOP

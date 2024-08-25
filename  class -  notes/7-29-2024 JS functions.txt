@@ -1,0 +1,25 @@
+
+
+funcitons: method or behavior of an object-template-class-prototype.
+
+20 lines of code running a task and you know will this in many programs.
+
+REUSABLE: one of the biggest of creating functions.
+Breaking down your program into manageable pieces.
+We'll meaningful identifirs for functions.
+
+
+CREATING A functions
+function funcName(arg1, arg2, arg3) {
+    // this is the block of the code
+}
+
+funcName();
+
+
+void: these don't return anything
+return-type: these mehods returns something
+
+
+
+

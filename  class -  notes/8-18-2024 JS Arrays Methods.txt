@@ -1,0 +1,122 @@
+Adding and removing elements from arrays
+push() method
+TASK: adds one or more elements tot he end of the array.
+RETURN: returns the new length of the array after adding elements
+ARGUMENTS: takes one or more elements as arguments
+CHANGE ORIGINAL VALUE: Yes
+STATIC OR NON-STATIC: non-static
+
+
+
+pop() method
+TASK: Removes the last element from the array
+RETURN: return the removed element 
+ARGUMENTS: no args
+CHANGE ORIGINAL VALUE: Yes
+STATIC OR NON-STATIC: non-static
+
+
+
+shift() method 
+TASK: Removes the first element from the array
+RETURN: return the removed element 
+ARGUMENTS: no args
+CHANGE ORIGINAL VALUE: Yes
+STATIC OR NON-STATIC: non-static
+
+
+unshift() method 
+TASK: adds one or more elements tot he end of the array.
+RETURN: returns the new length of the array after adding elements
+ARGUMENTS: takes one or more elements as arguments
+CHANGE ORIGINAL VALUE: Yes
+STATIC OR NON-STATIC: non-static
+
+isArray()
+TASK: Checks if variable is an Array
+RETURN: Boolean, true if the variable is an array or false otherwise
+ARGUMENTS: takes a variable to check if it is array or not 
+CHANGE ORIGINAL VALUE: no
+STATIC OR NON-STATIC: static 
+
+at() method 
+TASK: retieve the element at the specified index
+RETURN: returns the found element or undefined if no elements found at the index
+ARGUMENTS: takes an index as an argument
+CHANGE ORIGINAL VALUE: no
+STATIC OR NON-STATIC: non-static
+
+
+includes() method
+TASK: checks if teh array includes the specified element
+RETURN: boolean
+ARGUMENTS: it takes an element to check if array constains it or not
+CHANGE ORIGINAL VALUE: no
+STATIC OR NON-STATIC: non-static
+
+indexOf() method
+TASK: checks the array if it contains the specified element
+RETURN: the index of the found first match or -1 if the element isn't found 
+ARGUMENTS: it takes an element to check if array contains it or not 
+CHANGE ORIGINAL VALUE: no 
+STATIC OR NON-STATIC: non-static
+
+LastIndexOf() method
+TASK: checks the array if it contains the specified element
+RETURN: the index of the found last match or -1 if the element isn't found 
+ARGUMENTS: it takes an element to check if array contains it or not 
+CHANGE ORIGINAL VALUE: no 
+STATIC OR NON-STATIC: non-static
+
+concat() method 
+TASK: combines one array with another or mutliple other arrays
+RETURN: a new array which is the combination of mutliple arrays
+ARGUMENTS: takes one or more array arguments
+CHANGE ORIGINAL VALUE: no
+STATIC OR NON-STATIC: non-static
+
+spread() Operator: this a new feature added to JS with Es6 release and useful to concatinate arrays by spreading array 
+elements into another array.
+
+SYTAX:
+...arrVariable
+
+
+reverse() method
+TASK: reverses the array
+RETURN: the same array reversed
+ARGUMENTS: no args
+CHANGE ORIGINAL VALUE: Yes
+STATIC OR NON-STATIC: non-static 
+
+slice() method 
+TASK: extracts the partial array from the original array
+RETURN: returns a new array
+ARGUMENTS: takes one or 2 indexes
+CHANGE ORIGINAL VALUE: no
+STATIC OR NON-STATIC: non-static
+
+splice() method 
+TASK: used to add or remove elements in the array
+RETURN: the removed elements as an array
+ARGUMENTS:
+CHANGE ORIGINAL VALUE: Yes
+STATIC OR NON-STATIC: non-static
+
+const variables can't be reassigned! but their value especially in case of reference types can be changed.
+
+
+
+
+
+
+
+
+
+
+
+TASK:
+RETURN:
+ARGUMENTS:
+CHANGE ORIGINAL VALUE:
+STATIC OR NON-STATIC:

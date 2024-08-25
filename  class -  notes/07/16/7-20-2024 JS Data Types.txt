@@ -1,0 +1,129 @@
+Recap:
+
+Debugging: Trouble shooting the program to find issues, logic errors etc.
+
+Escape Sequances:
+\'  insert a single code
+\"  insert a double code
+\\  insert a backward slash
+\t  insert a tab space
+\n  insert a new line
+
+With ES6, JS added with Backticks which provides Template Literals.
+These backticks allows us to insert any special characters in our text including tab space or new line
+
+
+`   Hello,
+Today is Saturday and we are here to learn more
+about 'JavaScript' and its data types.`
+
+// single line comments
+/*
+Multi line comments 
+*/
+
+Variables: 
+Special container used ot store data and these variable can be accesses later in your program.
+
+Syntax: Initialization
+var variableName = value;
+let variableName = value;
+const variableName = value;
+
+Declaration:
+var variableName; // undefined 
+let variableName; // undefined 
+
+Assignment:
+varaibleName = value;
+
+Re-assignment:
+varaibleName = value;
+
+
+Variable Naming Rules and Convention;
+Rule: is syntax and we Have To follow
+Convention: not a rule and wilnot brake the program if you don't follow but ti is highly recommended and follow by programmers.
+
+
+RULES:
+- You can't start variable witha  digit
+- No special characters allowed except _ (underscore), $, and other currency signs
+- Can't use space
+- Can't use variable name twice in the same file and when they have the same scope
+- Can't use reserve keywords:
+
+
+Convention:
+- Variable should always be meaningful
+- camelCase rule is folloed for variables which may have a few words in it numberOfStudents.
+- Variable names usually (99%) start with lowercase.
+- We don't too long variable names
+
+Data types:
+
+Primitive types: basic types that usually storesa piece of information
+7 primitive strings:
+String: text
+Number: number
+BigInt: large number 
+Boolean: true or false
+Undefined:
+Null:
+Symbol: 
+Reference types: complex types which can store more information
+arrays, objects, maps, sets, dates, math
+
+
+Data Types:
+String: a sequance of characters 
+    We store strings in single or double codes.
+    let name = 'John';
+    let name = "John";
+
+Number: is used to store all absolute and decimal numbers (8 bytes)
+Whole numbers-absolut numbers: 1, 2, 3, 10, 25
+Decimals numbers - floating numbers: 2.5, 10.99, 1.374645846, 3.14
+
+byte: -128, 127
+short: 2 bytes
+int: 4 bytes 
+long: 8 bytes 
+
+float: 4 bytes up to 15-16 precision
+double: 8 bytes up to 32 precission
+
+
+BigInt: used ot store larger numbers (more than 8 bytes)
+
+
+= vs == vs ===
+
+=  assignment operator
+== comparison operator (loose)
+=== comparison operator (string)
+
+'5' === 'five'  --> false 
+'5' === '50'  --> false 
+'5' === '5'  --> true z
+
+deprecation: deprecated
+var will be deprecated 
+
+
+undefined vs null 
+undefined is the default type when you declare a variable but do not provide any value.
+null is specially stating that this variable hold no value. Absense of information.
+
+
+typeof undefined with return undefined
+typeof null with return object 
+
+Object data type is key-value pairs, properties
+firstName => 'John'
+lastName => 'Doe'
+age => 25
+phoneNumber => '000-000-0000'
+email => 'johndoe123@gmail.com'
+password => 'john1234'
+

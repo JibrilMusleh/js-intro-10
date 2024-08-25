@@ -1,0 +1,19 @@
+
+
+RECAP: 
+
+GIT: Global Information Tracker
+
+SSH: special type of authentication instead of username and passward
+It is more secure and used private-public key pairs
+Public is shared with hosting apps while private is in your local
+Private keys are in your local 
+
+
+
+ssh-keygen: simpliest ssh set up
+
+
+HOW TO CLONE AN EXISTING REMOTE REPO TO YOUR LOCAL
+1. Create a new remote repository
+2. Clone it to your local (BUT make sure you are on the correct path)

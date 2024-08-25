@@ -1,0 +1,40 @@
+comments: are used for short descriptions.
+
+// used for single line
+/* */ milti line comments 
+
+Statement: Any line of code that is written with a programming language.
+console.log("hello"); // This is JS or TS statements
+
+/** */  this is used for documentation
+
+
+option + shift + up arrow:  to duplicate
+
+Variables:
+-it is a special container that stores a value 
+-you can change the initial value ? 
+
+var-let-const 
+
+Before 2015 (Es6)
+-There was only var used for Variables
+-You can re-assign values to var Variables
+
+After 2015 (Es6)
+-JS intoduced let and const
+-let can ne re-assigned witha  new value
+-const is used to stay the same and never change 
+
+-let can be declared and assigned a value later
+-let variable value is going to be undefined if it is decalred vut not assigned with any value 
+-const cannot be declared without a value and Must always be initialized with a value 
+
+Data Tupes:
+string: is a text data type which can be stored in variables using isngle or double quotes
+number: is numbe data which can be stored in variables without quotes 
+
+
+variable naming: how we should name our variables.
+
+convention: It's not a written rule but followed by all the coders/programmers

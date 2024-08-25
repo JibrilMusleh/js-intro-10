@@ -1,0 +1,32 @@
+
+
+JS Numbers
+
+Falsy values:
+false
+0
+''
+null
+undefined
+NaN
+
+
+Number Object is more complex than the primitive number 
+-It is a built-in object.
+-It has its own properties and functions.
+
+Properties:
+MAX_VALUE
+MIN_VALUE 
+
+Property: the object information (what it has)
+function: the object behaviors(what it does)
+
+property = state = field = instance variables
+
+JavaScripts provides us some global functions you can invoke without referencing from any objects.
+
+isNaN()
+parseFloat()
+parseInt()
+isFinite()

@@ -1,0 +1,51 @@
+
+GIT: Global information tracker
+- it allows programmers to work together on a project collabrivately
+- it stores our project using a hosting platform with all its versions
+
+Hosting Platforms: GitHub, GitLab, Bitbucket, Aure DevOps, and many more.
+GitHub: by individuals to create public projects and market themselves.
+
+VCS: Version Control System
+
+
+
+SSH Key
+It is used for authentication
+
+HOW TO LINK AND PUSH A NEW project
+1. Create a local repo (your machine)
+2. Create a remote (on GitHub, GitLab)
+3. Initialize the local repo with GIT
+    git init
+4. Link local repo with remote using SSH comands
+    git remote add origin <URL>
+5. Make some changes
+6. Check the status
+    git status 
+7. Track the changes - Stage them
+    git add fileName
+    git add .
+8. Commit the changes with a meaningful message
+9. Push the changes to remote repo 
+    git push --set-upstream origin master
+    git push -u origin master
+    git push 
+
+GIT COMMANDS
+    git init
+    git remote add origin <Url>
+    git add .
+    git commit -m "message"
+    git push
+    git push --set-upstream origin master
+LINUX COMMANDS
+    cd 
+    ls
+    mkdir
+NODE COMMANDS
+    node -v
+    node fileName.js
+NPM
+    npm init 
+    

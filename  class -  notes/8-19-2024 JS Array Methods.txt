@@ -1,0 +1,59 @@
+ 
+
+ Array: built-in JS object used to store multiple data.
+
+
+
+ Array Methods:
+
+Shift and unshift
+pop and push
+splice
+
+
+Sort() Methods
+TASK: sorts the array elements alphabitecally
+RETURN: the modified array
+ARGUMENTS: No args when sorting strings but we can take a callback function as an argument for numbers
+CHANGE ORIGINAL VALUE: Yes
+STATIC OR NON-STATIC: Non-Static
+
+
+Callback function: It's a function passed as an argument to another function -> (a, b) => a - b
+Higher order function: A function that takes another function as an argument -> sort()
+
+
+flat() Methods
+TASK: flattens the sub arrays in the outer arrays
+RETURN: a new array
+ARGUMENTS: no arguments but you may pass a depth argument to extract nested arrays
+CHANGE ORIGINAL VALUE: No
+STATIC OR NON-STATIC: Non-static
+
+
+toString() Methods
+TASK: converts array to string with comma separator
+RETURN: string 
+ARGUMENTS: no args 
+CHANGE ORIGINAL VALUE: no
+STATIC OR NON-STATIC: non-static
+
+join() Methods
+TASK: converts array to string with comma separator
+RETURN: returns a string 
+ARGUMENTS: when ther is no arguments it separats element with comma like toString methods 
+It can take a custom string separator as a string as an argument 
+CHANGE ORIGINAL VALUE: no
+STATIC OR NON-STATIC: non-static
+
+
+
+
+
+
+
+TASK:
+RETURN:
+ARGUMENTS:
+CHANGE ORIGINAL VALUE:
+STATIC OR NON-STATIC:

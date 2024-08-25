@@ -1,0 +1,9 @@
+
+
+RECAP:
+
+If-else: control flow or conditional statements
+if works with a condition and off of the condition, there will be different blocks of code to be executed
+
+
+

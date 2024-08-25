@@ -1,0 +1,25 @@
+
+
+Loops: mechanism used to run a block of code repeatedly.
+
+Interation: Each time the loops run.
+
+1. for loop 
+2. for...of loop
+3. while loop
+4. do-while loop
+5. for...in loop 
+
+FOR LOOP 
+-also known as i loop or traditional loop 
+-it uses 3 expressions
+    -initialization: it is the start point for the loop
+    -condition: it is the termination point (stop)
+    -
+
+
+
+SYNTAX:
+for(initialization; condition; update) {
+    // block of code to execute
+}

@@ -1,0 +1,68 @@
+
+
+RECAP: 
+
+Control flow - conditional statemnts used to run different block of codes based on conditions.
+- It checks a codnitons which always returns true or false to decide the blocks to be executed.
+- There will be only one block execution unless there is nested if else statemtents.
+SYNTAX: 
+if(condition) {
+    // ..your code
+}
+else {
+    // ..your code
+}
+
+
+
+TERNARY: is a common approach used for simple if else statments.
+condition ? expression1 : expression2
+
+if condition true then expression1 will be executed
+if condition false then expression2 will be executed
+
+LADDER IF-ELSE IF Statemnts
+let num = ____;
+
+if(num > 0) {
+    console.log('Positive');
+}
+else if (num < 0) {
+    console.log('Negative')
+}
+else {
+    console.log('Neutral')
+}
+
+
+
+NESTED IF-ELSE Statments 
+if(num > 0) {
+    console.log('Positive');
+}
+else{
+    if (num < 0) {
+        console.log('Negative')
+    }
+    else {
+        console.log('Neutral')
+    }
+}
+
+
+if(num !== 0) {
+    if(num > 0) {
+        console.log('Positive')
+    }
+    else {
+        console.log('Negative')
+    }
+}
+else{
+    console.log('Neutral')
+}
+
+
+REDUNDENT CODE: Code that is unecessary.
+
+

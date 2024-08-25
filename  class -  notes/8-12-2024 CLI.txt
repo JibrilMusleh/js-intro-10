@@ -1,0 +1,82 @@
+
+
+CLI: Command Line Interface
+GUI: Graphical User interface
+
+Finder: MAC
+
+PATH: address of a file or folder
+
+folder = directory
+
+HOME Directory:
+MAC: /Users/jibrilmusleh
+cmd + shift + . = check hidden files
+
+1. show me active directory I am on now
+pwd: print working directory for mac
+cd: change directory for windows
+
+2. Create a new folder
+mkdir: folderName (for both mac and windows)
+mkdir = make directory
+
+3. change directory to a child folder
+cd directoryName (for both mac and windows)
+cd = change directory 
+
+4. Change directory to parent(own step back)
+cd .. (for both)
+
+5. Change directory to HOME
+cd ~
+
+
+6. Change directory to Root 
+cd / (for both)
+
+7. List existing files and folders in the current direcotry 
+ls (for mac)
+
+8. Clear terminal or cmd
+clear (for mac)
+
+9. Create a new folder 
+mdkir folderName (for both)
+
+10. Remove an existing folder 
+Empty:
+    rmdir folderName (for both)
+
+Non-Empty:
+    rm -rf folderName (mac)
+
+
+11. Create a new file 
+Empty:
+    touch fileName (mac)
+
+Non-Empty with initial content:
+    echo "Hello" > myNotes.txt
+
+12. Delete an existing file 
+    rm fileName (mac)
+
+
+
+ROOT Directory
+MAC: 
+
+
+
+
+touch fileName (mac)
+echo. > fileName 
+
+clear (for mac)
+cls (for windows)
+
+ls (for mac)
+
+node jsFileName.js (for both mac and windows)
+
