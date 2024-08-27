@@ -27,3 +27,11 @@ console.log(firstODDLengthCity);
 const citieswithLength60rMore = []
 
 console.log(cities.filter(city => city.length > 5));
+
+const citiesWithI = [];
+
+for(const city of cities) {
+    if(city.toLowerCase().includes('i')) citiesWithI.push(city);
+}
+
+console.log(citiesWithI);
