@@ -1,0 +1,83 @@
+
+
+HOW TO CREATE FUNCTIONS IN JS
+
+1. Function declaration - traditional
+
+function funcName(args) {
+    // block
+}
+
+
+function sum(a, b) {
+    returns a + b
+}
+
+
+sum(3, 5);
+
+2. Function experession
+const sum = function (a, b); {
+    return a + b
+}
+
+
+sum(3, 5);
+
+
+3. Arrown functions: released with Es6 and it provides more consised way to create functions
+const sum => (a, b); {
+    return a + b
+}
+
+
+// Create a function called product which returns the mutliplication of two numbers
+
+const prod => (a, b) {
+    return a * b;
+}
+
+prod(3, 5);
+
+
+
+// Write a function which princts 'Hello'
+
+const printHello => () {
+    console.log ('Hello')
+}
+
+// Enhanced Arrow function when there is 1 line of code within body
+
+const prod = (a, b) => a * b;
+const printHello = () => console.log ('Hello')
+
+
+const arr = [40, 30, 2, -5];
+
+arr.sort((a, b) => a - b);
+
+
+function getInfo() {
+    console.log('Today is Saturday');
+}
+
+function greet(func) {
+    console.log('Hello');
+    func()
+}
+
+
+greet(getInfo);
+
+OUTPUT:
+Hello 
+Today is Saturday 
+
+
+
+greet: higher order function (taking another function as a argument)
+getInfo: callback function (passed as an argument to another function)
+
+
+
