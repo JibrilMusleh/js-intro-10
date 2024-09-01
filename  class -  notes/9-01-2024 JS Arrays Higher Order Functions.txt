@@ -1,0 +1,9 @@
+
+
+call, apply, bind methods are used to borrtow another function and execute it for an object by 
+defining this keyword.
+
+call: takes individual arguments and executes the borrowed function.
+apply: takes an array arguments and executes the borrowed function.
+bind: takes individual arguments and returns a new function to be invoked.
+
