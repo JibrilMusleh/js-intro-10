@@ -1,0 +1,34 @@
+
+
+Mutable: changing
+Immutable: no changing 
+
+Array and object are mutable data types, and some of theri methods can change their values.
+
+mutable array methods: reverse(), push(), pop(), shift(), unshift(), splice(), sort()
+
+immutable array methods: indexOf(), lastIndexOf(), includes(), isArray(), slice(), concat(),
+map(), filter(), reduce(), forEach(), find(), findLast(), findIndex(), findLastIndex(), some(),
+every(), at(), flat(), toString(), join()
+
+
+PRIMITIVES:
+string, number, boolean, null, undefined, bigint, symbol
+
+
+NOTE: All the privitives are immutable by their nature.
+
+let name = 'John';
+
+
+name = 'James'
+
+
+console.log(name); // 'James'
+
+JSON: JavaScript Object Notation
+
+DATA TYPES SUPPORTED BY JSON:
+strings, numbers, boooleans, arrays, objects, null 
+
+NOT SUPPORTED: undefined, symbol, functions, reference types expect the arrays objects.
