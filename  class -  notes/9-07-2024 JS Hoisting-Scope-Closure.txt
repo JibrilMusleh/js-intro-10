@@ -1,0 +1,13 @@
+
+
+Hoisting: use functions and variables before they are declared
+
+Function declaration will be hoisted
+Arrow functions and function expression are not hoisted, you cannot use this before their initilization
+
+-var is hoisted
+-let and const are not hoisted 
+-var,let,const respects the global and function scope
+-let and const also respect the block scope while var doesn't 
+
+
