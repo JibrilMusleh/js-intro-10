@@ -1,0 +1,28 @@
+
+
+Inheritance: it is building a parent-child relationship between two classes or prototypes.
+In this case, child class or prototypes will be able to use (not private) parent members (functions,
+properties, constructor).
+
+
+-one parent can have multiple child that extends from it 
+-one child can extend to one parent only
+
+
+How to achieve Inheritance?
+we use extends key word
+
+What is method overriding?
+when child class inheriting parent class but changes the method body.
+
+what is method overloading?
+When you are able to use a method with different arguments
+
+
+Method overriding vs method overloading
+overriding happens in the case of Inheritance and when child class re-implements a new body for a parent class method
+overloading is just using the same method name with diffent arguments 
+
+
+super() is used to inherit parent constructor into child constructor
+

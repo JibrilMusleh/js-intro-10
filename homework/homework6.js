@@ -94,3 +94,63 @@ console.log(no3and5([3, 4, 5, 6]));
 console.log(no3and5([10, 11, 12, 13, 14, 15]));
 
 //8
+
+
+//9
+
+const removeDuplicates = arr => {
+    return [...new Set(arr)]; 
+}
+
+console.log(removeDuplicates([10, 20, 35, 20, 35, 60, 70, 60]));
+console.log(removeDuplicates([1, 2, 5, 2, 3]));
+console.log(removeDuplicates(["abc", "xyz", "123", "ab", "abc", "ABC"]));
+console.log(removeDuplicates(["1", "2", "3", "2", "3"]));
+console.log(removeDuplicates([0, -1, -2, -2, -1]));
+
+//10
+
+const isDateFormatValid = arr = {
+
+}
+
+//11
+const secondMax = arr => {
+    if (arr.length === 1) return arr[0];
+
+    const removeDup = [...new Set(arr)]
+
+    removeDup.sort((a, b) => b - a);
+
+    return removeDup[1];
+}
+
+console.log(secondMax([7, 4, 4, 4, 23, 23, 23]));
+console.log(secondMax([3, 4, 5, 6]));
+console.log(secondMax([10]))
+
+
+//12
+const secondMin = arr => {
+    if (arr.length === 1) return arr[0];
+
+    const removeDup = [...new Set(arr)]
+
+    removeDup.sort((a, b) => a - b);
+
+    return removeDup[1];
+}
+
+console.log(secondMin([7, 4, 4, 4, 23, 23, 23]));
+console.log(secondMin([3, 4, 5, 6]));
+console.log(secondMin([10]))
+
+//13
+const mostRepeated = arr => {
+    return arr.sort((a, b) => arr.filter(v => v === a).length - arr.filter(v => v === b).length).pop();
+  }
+  
+console.log(mostRepeated([4, 7, 4, 4, 4, 23, 23, 23]));
+console.log(mostRepeated(["pen", "pencil", "pen", "123", "abc", "pen", "pencil"]));
+console.log(mostRepeated([10]));
+console.log(mostRepeated(["TechGlobal"]));
