@@ -1,0 +1,6 @@
+
+
+JS is Asynchronous in it nature.
+Synchronous: The code reads in order top to bottom with no issues.
+Asynchronous: tasks are executed simultaneously (at the same time or concurrently)
+
