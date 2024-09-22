@@ -1,0 +1,64 @@
+
+
+1. CommonJS Modules
+module.exports and require()
+
+2. ES6 Modules
+exports and import
+
+HOW TO RUN JS CODE
+-Node JS
+-Browser
+-Extentions (you'll never use in the work environment)
+
+
+static methods and properties
+class Apple {
+    static propertyA = 'hi';
+    propertyB = 'hello'
+
+    static funcA() {
+        console.log('I am static')
+    }
+
+    funcB() {
+        console.log(' I am not static')
+    }
+}
+
+
+// Accessing static properties and methods
+Apple.propertyA; // 'hi'
+Apple.funcA(); // 'I am static'
+
+const a1 = new Apple();
+
+If the method executes the same tast for every single object of the class 
+it makes sense use static method.
+
+
+class Batch10Student{
+    constructor(fullname, age) {
+        this.fullname = fullname;
+        this.age = age 
+    }
+    static getProgramName() {
+        return 'SDET';
+    }
+
+    getFullName() {
+        return this.fullname;
+    }
+
+    getAge() {
+        return this.age;
+    }
+}
+
+const jibril = new Batch10Student('Jibril M', 19)
+
+Jibril.fullname();
+
+Batch10Student.getProgramName();
+
+
