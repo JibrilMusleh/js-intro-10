@@ -15,6 +15,6 @@
 **paragraph**: `<p></p>` Used to create simpe text.
 
 ** Elements can be nested with each other.
-** Semantic html: Meaningful elemnts.
+** Semantic html: Meaningful elemnts. Ex: header, footer, main, section, article, aside.
 
 **div**: Dummy element that is used to group elements.
