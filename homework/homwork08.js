@@ -54,3 +54,70 @@ function reverseSentence(str) {
 console.log(reverseSentence("Hello"))
 console.log(reverseSentence("Javascript is fun"))
 console.log(reverseSentence("This is a sentence"))
+
+//6
+
+function removeStringSpecialsDigits(str) {
+    let result = '';
+    
+    for (let i = 0; i < str.length; i++) {
+        const char = str[i];
+        
+        if (isNaN(char) && (char >= 'a' && char <= 'z' || char >= 'A' && char <= 'Z' || char === ' ')) {
+            result += char;
+        }
+    }
+    
+    return result;
+}
+
+console.log(removeStringSpecialsDigits("123Javascript #$%is fun"))   
+console.log(removeStringSpecialsDigits("Cypress")) 
+console.log(removeStringSpecialsDigits("Automation123#$%"))  
+
+//7
+
+function removeArraySpecialsDigits(arr) {
+    const removeSpecialsAndDigits = (str) => {
+        let result = '';
+        for (let i = 0; i < str.length; i++) {
+            const char = str[i];
+            if ((char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z') || char === ' ') {
+                result += char;
+            }
+        }
+        return result;
+    };
+    return arr.map(removeSpecialsAndDigits);
+}
+
+console.log(removeArraySpecialsDigits(["123Javascript", "#$%is", "fun"]));
+console.log(removeArraySpecialsDigits(["Cypress", "123$%", "###"]));
+console.log(removeArraySpecialsDigits(["Automation", "123#$%tool"]));
+
+
+//8
+const getCommons = (arr1, arr2) => {
+    return [...new Set(arr1.filter((word) => arr2.includes(word)))];
+}
+
+console.log(getCommons( ["Javascript", "is", "fun"], ["abc", "xyz", "123"] ));
+console.log(getCommons( ["Javascript", "is", "fun"], ["Javascript", "C#", "Python"] ));
+console.log(getCommons( ["Javascript", "C#", "C#"], ["Python", "C#", "C++"] ))
+
+//9
+const noXInVariables = arr => {
+    return arr.map(item => {
+        if (typeof item === 'string') {
+            let newItem = item.split('x').join('').split('X').join('');
+            return newItem === '' ? null : newItem;
+        }
+        return item;
+    })
+        .filter(item => item !== null);
+};
+
+console.log(noXInVariables(["abc", 123, "#$%"]));
+console.log(noXInVariables(["xyz", 123, "#$%"]));
+console.log(noXInVariables(["x", 123, "#$%"]));
+console.log(noXInVariables(["xyXyxy", "Xx", "ABC"]));
