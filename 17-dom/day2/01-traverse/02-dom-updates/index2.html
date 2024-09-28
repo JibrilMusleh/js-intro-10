@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Working with node content</h1>
+
+    <div id="box">
+
+    </div>
+    <script>
+        const box = document.getElementById('box');
+
+        box.innerHTML = 'Box content'
+        box.innerHTML = '<p>This is paragraph inside box</P>'
+
+        box.innerHTML += '<p>Last sentance in box</P>'
+
+        box.textContent += '<p>Text Content</P>'
+        box.textContent += 'Text Content'
+
+        box.innerContent += '<p>Text text</P>'
+        box.innerContent += 'Text text'
+
+        const h4El = document.createElement('h4');
+        console.log(h4El);
+
+        h4El.innerHTML = 'h4 element content'
+        console.log(h4El);
+
+        box.innerHTML = h4El; // Error
+        
+        box.append(h4El);
+
+        const h5El = document.createElement('h5');
+        h5El.textContent = 'h5 text content'
+        box.appendChild(h5El);
+
+        box.append(h4El, h5El)
+        box.appendChild(h4El, h5El)
+
+         const p1 = document.createElement('p1');
+        p1.textContent = 'p1 text content'
+
+         const p2 = document.createElement('p2');
+        p2.textContent = 'p2 text content'
+
+         const p3 = document.createElement('p3');
+        p3.textContent = 'p3 text content'
+
+         const p4 = document.createElement('p4');
+        p4.textContent = 'p4 text content'
+
+        box.append(p1, p2)
+        box.appendChild(p3, p4)
+    </script>
+</body>
+</html>
