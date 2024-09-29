@@ -24,7 +24,6 @@ console.log(noZero([0, 0, 0]));
 console.log(noZero([10, 100, 0]));
 
 
-
 //3
 const numberAndSquare = arr => arr.map(num => [num, num * num])
 

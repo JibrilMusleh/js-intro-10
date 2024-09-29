@@ -1,0 +1,22 @@
+
+
+Functions: it is a block of code that can be executed repeatedly and increase the code reusability.
+-it always runs a task
+-There are two types of functions
+    void: does not return the value and just runs the task 
+    return: return a value (data) when invoked
+-Functions can be static
+    static: can be invoked with its class name or prototype
+    Math.min()
+    non-static: can be invoked witha n instance of the template
+
+How many different ways you can create a function?
+1. function declaration
+2. funciton expression
+3. arrow function
+4. constructor function
+5. IIFE - Immediately Invoked Funciton Expression
+6. Object property function
+7. Recursive function
+
+
